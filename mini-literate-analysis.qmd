@@ -1,0 +1,40 @@
+---
+title: "Mini Literate Analysis"
+format: html
+editor: visual
+---
+
+## Introduction
+
+### About The Data
+
+This data set contains North Pole Environmental Observatory Bottle Chemistry data. This data set includes diverse measurements of seawater chemistry along with supporting conductivity, temperature, and depth (CTD) data from the Arctic Ocean near the North Pole. Measurements were taken from sea ice platforms each April or May from 2000-2014.
+
+This data was downloaded from [this dataset on the Arctic Data Center](https://doi.org/10.18739/A25T3FZ8X).
+
+### Set Up
+```{r}
+library(readr)
+```
+
+### Read Data
+```{r}
+bg_chem <- readr::read_csv(file = "data/BGchem2008data.csv")
+```
+
+Exploring data
+```{r}
+colnames(bg_chem)
+summary(bg_chem)
+```
+
+## Analysis
+
+
+###Calculate Summary Statistics
+
+### Calculate mean Readfield Ratio
+
+### Plot Ratio
+
+## Conclusion

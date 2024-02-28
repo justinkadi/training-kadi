@@ -1,0 +1,42 @@
+---
+title: "Intro to Quarto"
+format: html
+editor: visual
+---
+
+# Header 1
+
+## Header 2
+
+##### Header 5
+
+**this is bold**
+
+*this is italic*
+
+-   item 1
+-   item 2
+-   item 3
+
+Find the workshop materials in [this link](arcticdata.io)
+
+**A bold list**
+
+1.  fog
+
+2.  rain - mist
+
+3.  snow - graupel
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+```{r}
+ x <- 4*8
+ heights_ft <- c(5.2,6.0,5.7)
+ heights_ft
+```
+
